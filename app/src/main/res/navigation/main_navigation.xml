@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/f_carousels">
+
+    <fragment
+        android:id="@+id/f_carousels"
+        android:name="com.toolbox.ui.carousels.CarouselsFragment"
+        tools:layout="@layout/fragment_carousels" />
+
+</navigation>
